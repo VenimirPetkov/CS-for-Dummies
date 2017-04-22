@@ -24,6 +24,12 @@ namespace Chapter_5_Solution_4
                     a = a + c;
                     c = a - c;
                     a = a - c;
+                    if(a<b)
+                    {
+                        a = a + b;
+                        b = a - b;
+                        a = a - b;
+                    }
                 }
                 else if (a >= c)
                 {
